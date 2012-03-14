@@ -1,0 +1,241 @@
+/*  
+Theme Name: Headway Water Theme
+Theme URI: http://headwaythemes.com
+Description: A Simple Headway Child Theme to get you started on the water.
+Version: 0.1
+Author: Headway Themes
+Author URI: http://headwaythemes.com
+Template: headway
+*/
+
+/* Colors */
+/*
+Dark Blue - #00427F
+light dark Blue - #0066BD
+Light Blue - #66B5CC
+Tan - #F0E4C5
+Dark Tan - #D6C28F
+*/
+
+html {
+	font-size: 16px;
+}
+body {
+	font-size: 15px;
+	line-height: 24px;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+input, select, textarea {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+address, img, q, ul, ol, dl {
+	margin-top: 24px;
+	margin-bottom: 24px;
+}
+a img {
+	margin: 0;
+}
+
+/*********************************************
+	Main Background
+*********************************************/
+body {
+	background: #00427F;
+	color: #00427F;
+}
+
+/*********************************************
+	Universal Link Styles
+*********************************************/
+a {
+	color: #0066BD;
+	text-decoration: none;
+}
+a:hover {
+	color: #00427F;
+	text-decoration: underline;
+}
+
+/*********************************************
+	Headings
+*********************************************/
+h1, h2, h3, h4, h5, h6 {
+	color: #66B5CC;
+}
+h1 {
+	font-size: 24px;
+	line-height: 24px;
+	margin-top: 12px;
+	margin-bottom: 12px;
+	font-weight: bold;
+}
+h2 {
+	font-size: 23px;
+	line-height: 24px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	font-weight: bold;
+}
+h3 {
+	font-size: 22px;
+	line-height: 16px;
+	margin-top: 16px;
+	margin-bottom: 16px;
+	font-weight: bold;
+}
+h4 {
+	font-size: 21px;
+	line-height: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+h5, h6 {
+	font-size: 20px;
+	font-weight: bold;
+}
+h6 {
+	font-size: 20px;
+	line-height: 23px;
+	color: #0066BD;
+	font-style: italic;
+	margin-bottom: 7px;
+	font-weight: normal;
+}
+
+span.widget-title {
+	color: #0066BD;
+}
+
+/*********************************************
+	Wrapper Defaults
+*********************************************/
+
+.wrapper {
+	background: #0066BD;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+}
+
+/*********************************************
+	Block Defaults
+*********************************************/
+
+.block {
+	background: #66B5CC;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+}
+
+/*********************************************
+	Header Block
+*********************************************/
+
+.block-type-header {
+	background: #F0E4C5;
+}
+
+span.banner {
+	font-size: 32px;
+	font-weight: normal;
+}
+
+span.tagline {
+	font-size: 24px;
+	font-weight: normal;
+}
+
+h1.tagline {
+	font-weight: normal;
+}
+
+/*********************************************
+	Navigation Block
+*********************************************/
+
+.block-type-navigation {
+	background: #66B5CC;
+}
+
+.block-type-navigation li a:hover {
+	background: #D6C28F;
+}
+
+/*********************************************
+	Breadcrumbs Block
+*********************************************/
+
+.block-type-breadcrumbs {
+	
+}
+
+/*********************************************
+	Content Block
+*********************************************/
+
+.block-type-content {
+	padding: 10px;
+	background: #F0E4C5;
+}
+
+.block-type-content .entry-meta {
+	color: #00427F;
+}
+
+/*********************************************
+	Widget Block
+*********************************************/
+
+.block-type-widget-area {
+	padding: 10px;
+	background: #D6C28F;
+}
+
+.block-type-widget-area li.widget ul {
+	list-style: none;
+	margin: 0;
+}
+
+span.widget-title {
+	font-size: 21px;
+	line-height: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+
+/*********************************************
+	Footer Block
+*********************************************/
+
+.block-type-footer {
+	background: #F0E4C5;
+}
+
+/*********************************************
+	Media Block
+*********************************************/
+
+.block-type-media {
+	
+}
+
+/*********************************************
+	Custom Code Block
+*********************************************/
+
+.block-type-custom-code {
+	
+}
+
+/*********************************************
+	Gravity Form Block
+*********************************************/
+
+.block-type-gravity-form {
+	
+}
+
